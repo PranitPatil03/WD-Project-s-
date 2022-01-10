@@ -11,6 +11,6 @@ This Project is based on basic knowledge of JavaScript , HTML & CSS.
 Project 2️⃣
 This Project is based on intermediate knowledge of JavaScript & also used Basic HTML/CSS.
 
-2.Drum-kit 🥁 Link:
+2.Drum-kit 🥁 Link:https://pranitpatil03.github.io/WD-Projects/Drum%20Kit/index.html
 
 --------------------------------------------------------------------------------------------
