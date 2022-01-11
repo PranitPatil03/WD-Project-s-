@@ -4,7 +4,7 @@ Some Basic/intermediate WD Projects (For Understanding JavaScript)
 Project 1️⃣ 
 This Project is based on basic knowledge of JavaScript , HTML & CSS.
 
-1.Dice Game 🎲 Link :https://pranitpatil03.github.io/WD-Projects/Dicee%20Challenge/dicee.html
+1.Dice Game 🎲 <a hred="https://pranitpatil03.github.io/WD-Projects/Dicee%20Challenge/dicee.html">Link</a>
 
 --------------------------------------------------------------------------------------------
 
