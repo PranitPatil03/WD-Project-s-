@@ -17,7 +17,7 @@ This Project is based on intermediate knowledge of JavaScript & also used Basic 
 
 
 Project 3️⃣
-This Project is based on intermediate knowledge of JavaScript...
+This Project is based on intermediate knowledge of JavaScript...<br>
 Like Function,CallBacks & Most Imp 
 this Project also contain "jQuery"(Basic).
 
