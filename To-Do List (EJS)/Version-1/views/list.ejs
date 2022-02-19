@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <style>
+        .list{
+            font-size:1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <h1><%=Days%> </h1>
+
+    <ul class="list">
+       
+        <% for(var i = 0; i<newListTasks.length; i++) { %>
+            <li>
+                <%= newListTasks[i] %>
+            </li>
+        <% } %>
+
+    </ul>
+
+
+    <form action="/" method="post">
+        <input type="text" name="newTask">
+        <button type="submit" name="submit">Add other Task</button>
+    </form>
+
+</body>
+</html>
