@@ -4,14 +4,19 @@
 
 <form action="/compose" method="post">
 
-        <label for="postName">Title</label>
-        <input type="text" name="postTitle"  id="postName" size="140%">
-    
-        <br>
-        <label for="post">post</label>
-        <textarea cols="145%" rows="5" id="postTitle" name="post"></textarea>
+        <div class="form-group">
+            <label for="postTitle">Title</label>
+            <input type="text" class="form-control" id="postTitle" name="postTitle">
+        </div>
 
-    <button type="submit" name="button btn-primary">publish</button>
+        <div class="form-group">
+            <label>Post</label>
+            <textarea  class="form-control" name="postBody" id="post" cols="152" rows="5"></textarea>
+        </div>
+
+    <button type="submit" class="btn btn-primary">publish</button>
+
 </form>
 
 <%- include('partials/footer'); -%>
+
