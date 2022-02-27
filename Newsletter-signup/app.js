@@ -40,11 +40,11 @@ app.post("/", function(req, res){
 
     const jsonData=JSON.stringify(data);
 
-    const url="https://us14.api.mailchimp.com/3.0/lists/2bfb122767"
+    const url="https://us14.api.mailchimp.com/3.0/lists/2bfb122767";
     
     const options={
         method: 'POST',
-        auth:"Pranit:9b68c765b0c11ccad37c6bee04466a74-us14"
+        auth:"Pranit:91cc6a780d81c6cc303d403479c97345-us14"
     }
 
     const request1= https.request(url,options,function(response){
@@ -75,6 +75,9 @@ app.listen(process.env.PORT ||3000,function(){
 
 // API KEYS
 // 9b68c765b0c11ccad37c6bee04466a74-us14
+// 91cc6a780d81c6cc303d403479c97345-us14
+// 9b68c765b0c11ccad37c6bee04466a74-us14
 
 // Audience ID
+// 2bfb122767
 // 2bfb122767
